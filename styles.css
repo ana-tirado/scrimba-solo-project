@@ -1,0 +1,141 @@
+/* CSS HEX 
+--yellow-crayola: #F8EBBA;
+--sunglow: #FFD340ff;
+--deep-saffron: #FD9728ff;
+--orange-crayola: #EF7535ff;
+--burnished-brown: #A37477ff;
+--rose-ebony: #653F40ff;
+--old-burgundy: #4A343Cff;
+--dark-purple: #312A42ff;
+--space-cadet: #1A1A31ff;
+
+https://coolors.co/f8eb85-ffd340-fd9728-ef7535-a37477-653f40-4a343c-312a42-1a1a31*/
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+
+
+.hero {
+    background-image: url("images/sevilla-hero.jpg");
+    background-size: cover;
+    padding: 80px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+}
+
+h1 {
+    font-family: Dancing Script, cursive;
+    font-size: 140px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 20px;   
+}
+
+#bar {
+    background-color: #FFD340ff;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #4A343Cff;
+}
+
+img {
+    width: 150px;
+}
+
+.intro {
+    font-size: 18px;
+    background-color: #F8EBBA;
+    margin: 0px;
+    padding: 20px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8EBBA;    
+}
+
+.act-enun {
+    margin-bottom: 40px;
+    font-size: 22px;
+    background-color: #FFD340ff;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.act-pics {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.act-miss {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+#pics-text {
+    width: 300px;
+    margin: 0 40px 30px;
+}
+
+.pics-text-enun {
+    background-color: #FFD340ff;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+#pics-text-mon:hover {
+    background-color: #FD9728ff;
+}
+
+#pics-text-food:hover {
+    background-color: #FD9728ff;
+}
+
+#pics-text-dance:hover {
+    background-color: #FD9728ff;
+}
+
+.guide {
+    background-color: #F8EEDD;
+    align-items: center;
+    padding: 30px 0px 60px;
+    font-size: 22px;
+}
+
+#card {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border: 1px solid rgba(253, 150, 40, 0.536);
+    border-right: 5px solid rgba(253, 150, 40, 0.536);
+    border-bottom: 5px solid rgba(253, 150, 40, 0.536);
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: rgba(255, 210, 64, 0.681);
+    box-shadow: 5px 5px 5px;
+    padding: 20px;
+}
+
+#card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0px 20px 0px 5px;
+}
+
+#card-img {
+    border-radius: 30px;
+    border: 1px solid rgba(253, 150, 40, 0.536);
+}
